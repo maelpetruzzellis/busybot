@@ -75,19 +75,19 @@ include('connexion_db.php');
                     <?
                     if($nomDonnee == "Ouvert")
                         {
-                            echo $nomDonnee;
+                            ?><span class="vert"><? echo $nomDonnee ?></span><?
                         }
                     else if($nomDonnee == "Occupe")
                         {
-                            echo $nomDonnee;
+                            ?><span class="orange"><? echo $nomDonnee ?></span><?
                         }
                     else if($nomDonnee == "Refuse")
                         {
-                            echo $nomDonnee;
+                            ?><span class="rouge"><? echo $nomDonnee ?></span><?
                         }
                     else if($nomDonnee == "Indisponible")
                         {
-                            echo $nomDonnee;
+                            ?><span class="rouge"><? echo $nomDonnee ?></span><?
                         }
                     else
                         {
